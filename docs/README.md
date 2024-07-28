@@ -19,3 +19,15 @@ Install `typo` via pip:
 
 ```sh
 pip install typo
+
+## Usage
+
+```sh
+from typo import sf
+
+code = """
+def hello_world():
+    print('Hello, world!')
+"""
+
+print(sf(code))
