@@ -1,20 +1,22 @@
 from setuptools import setup, find_packages
 import os
 
+
+with open("docs/README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 # Utility function to read the README file.
 # Used for the long_description. It's nice, because now:
 # 1) we have a top-level README file and
 # 2) it's easier to type in the README file than to put a raw string in below ...
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name="typo",
     version="0.1.0",
     author="Gudur Varshith",
     author_email="varshith.gudur17@gmail.com",
-    description="`typo` is a Python package designed to convert Python code into a syntax-free representation. This tool can be useful for educational purposes, code analysis, or preparing code for various transformation pipelines. The package is straightforward to use and provides a direct way to strip Python code down to its essential structure without syntax.",
-    long_description=read('README.md'),
+    description="typo is a Python package designed to convert Python code into a syntax-free representation. This tool can be useful for educational purposes, code analysis, or preparing code for various transformation pipelines.",
+     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/varshith-Git/typo",
     packages=find_packages(exclude=["tests*", "docs*", "examples*"]),
