@@ -19,7 +19,7 @@ Install `typo` via pip:
 
 ```sh
 pip install typo
-
+```
 ## Usage
 
 ```sh
@@ -31,3 +31,5 @@ def hello_world():
 """
 
 print(sf(code))
+
+```
