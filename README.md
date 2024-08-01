@@ -15,7 +15,7 @@
 
 ## Installation
 
-Install `typo` via pip:
+Install `syntaxerror` via pip:
 
 ```sh
 pip install syntaxerror
@@ -23,7 +23,7 @@ pip install syntaxerror
 ## Usage
 
 ```sh
-from typo import sf
+from syntaxerror import sf
 
 code = """
 def hello_world():
