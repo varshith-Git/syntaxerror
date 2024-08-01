@@ -1,8 +1,8 @@
-# Typo: Python Code to Syntax-Free Representation Converter
+# syntaxerror: Python Code to Syntax-Free Representation Converter
 
 ## Overview
 
-`typo` is a Python package designed to convert Python code into a syntax-free representation. This tool can be useful for educational purposes, code analysis, or preparing code for various transformation pipelines. The package is straightforward to use and provides a direct way to strip Python code down to its essential structure without syntax.
+`syntaxerror` is a Python package designed to convert Python code into a syntax-free representation. This tool can be useful for educational purposes, code analysis, or preparing code for various transformation pipelines. The package is straightforward to use and provides a direct way to strip Python code down to its essential structure without syntax.
 
 ## Features
 
