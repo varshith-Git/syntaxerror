@@ -18,7 +18,7 @@
 Install `typo` via pip:
 
 ```sh
-pip install typo
+pip install syntaxerror
 ```
 ## Usage
 
