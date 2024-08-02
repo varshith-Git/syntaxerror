@@ -11,7 +11,7 @@
 - **Docstring Removal**: Option to remove docstrings from Python code.
 - **Function Extraction**: Extract function names from Python code.
 - **Syntax Validation**: Validate the syntax of Python code.
-- **Easy to Use**: Simple and intuitive API.
+- **Easy to Use**: Simple and intuitive API..
 
 ## Installation
 
